@@ -8,6 +8,23 @@ public class Ch7Explanations {
     public static void main(String[] args) {
 
       // int count =countdown(5);
+        int i = 1;
+        while (i < 10) {
+            double x = (double) i;
+            System.out.println(x + "     " + Math.log(x) / Math.log(2));
+            i = i + 1;
+        }
+        System.out.println();
+        
+        final double LOG2 = Math.log(2);
+        int j = 1;
+        while (j < 100) {
+            double x = (double) j;
+            System.out.println(x + "     " + Math.log(x) / LOG2);
+            j = j * 2;
+        }
+
+
 
     }
 

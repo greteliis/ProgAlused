@@ -7,6 +7,7 @@ public class Sum {
     public static void main(String[] args) {
 
         System.out.println(oddSum(6));
+
     }
 
     public static int oddSum(int n) {
